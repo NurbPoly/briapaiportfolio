@@ -1,0 +1,228 @@
+
+
+/***Fonts***/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*@import url('https://fonts.googleapis.com/css?family=Oswald');*/
+
+/***Navbar***/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+/***Navbar header/brand***/
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* WIP NOTES:
+**Added Git integration (^^see buttons top right!**)
+** Make sure to PUSH commits afterwards! (Ctrl+Shift+K)
+1) Add text content first
+2) Which photos should I use? How to host?
+3) Plan color scheme (use Photoshop for mockup?)
+4) Add hover effects (colors? fading?) for navbar buttons
+5) Plan other features (thumbnails, placeholder project links?)
+*/
+
+/***"Brianna" header***/
+
+/***Body fonts & Gradients***/
+body {
+    font-family: 'Raleway', sans-serif;
+    background: purple; /* Unsupported browsers */
+    background: -webkit-linear-gradient(left top, purple, yellow);
+    background: -o-linear-gradient(bottom right, purple, yellow); /* Opera browser */
+    background: -moz-linear-gradient(bottom right purple, yellow); /* Mozilla Firefox browser */
+    background:linear-gradient(to bottom right, purple, yellow);
+}
+
+/**Home & Parallax Scrolling effect ***/
+#Home {
+    /** Image credit: Pixbay. CC0 Public Domain
+Free for commercial use
+No attribution required **/
+    background-image: url("img/cover_photo.jpg");
+    background-repeat: no-repeat;
+    /* Opacity */
+    opacity: 0.5;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#About {
+    max-height: 100%
+}
+
+ /* Unsupported query: Turn off parallax for mobile*/
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.projects {
+    font-weight: bold;
+}
+/*** Link Behavior **/
+
+/*** Project Images **/
+
+.img-thumbnail {
+    max-width: 50%;
+}
+img {
+    padding: 20px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.icons {
+    opacity: 1.0;
+}
+
+.img-circle {
+    opacity: 1.0;
+}
+
+.logos {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.logos:hover {
+    filter: alpha(opacity=100);
+}
+
+
+
+/***Header hover behavior***/
+.tribute-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.tribute-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.quote-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.quote-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.weather-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.weather-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.wiki-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.wiki-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.twitch-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.twitch-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+
+.calculator-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.calculator-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.clock-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.clock-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.tick-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.tick-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.simon-proj {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
+
+.simon-proj:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+/***Headers & Paragraphs  ***/
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 7em;
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: orange;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
