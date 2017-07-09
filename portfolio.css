@@ -25,15 +25,6 @@
     text-align: center;
 }
 
-/* WIP NOTES:
-**Added Git integration (^^see buttons top right!**)
-** Make sure to PUSH commits afterwards! (Ctrl+Shift+K)
-1) Add text content first
-2) Which photos should I use? How to host?
-3) Plan color scheme (use Photoshop for mockup?)
-4) Add hover effects (colors? fading?) for navbar buttons
-5) Plan other features (thumbnails, placeholder project links?)
-*/
 
 /***"Brianna" header***/
 
@@ -49,9 +40,6 @@ body {
 
 /**Home & Parallax Scrolling effect ***/
 #Home {
-    /** Image credit: Pixbay. CC0 Public Domain
-Free for commercial use
-No attribution required **/
     background-image: url("img/cover_photo.jpg");
     background-repeat: no-repeat;
     /* Opacity */
