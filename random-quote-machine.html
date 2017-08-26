@@ -2,27 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brianna Paige">
+    <!--Bootstrap css-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--------------------------------------------------------------------->
     <link rel="stylesheet" type="text/css" href="random-quote-machine.css">
+    <!--Bootstrap js--->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--------------------------------------------------------------------->
     <script type="text/javascript" src="random-quote-machine.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Rick & Morty Random Quote Machine</title>
 </head>
 <body>
-<header>Rick & Morty Random Quote Machine</header>
-<h3>[adult swim]</h3>
-<div id="wrapper">
-       <div>
-    <button class="get-btn">[get quote]</button>
-           <div class="twitter-container">
-               <!---change "HelloWorld" to reflect generated quote-->
+<div>
+    <header>Rick & Morty Random Quote Machine</header>
+     <h2>[adult swim]</h2>
+</div>
+<div id="wrapper" class="parent">
+        <div class id="flex-item">
+            <!-- "Get Quote" button -->
+                <button class="get-btn" onClick="newQuote()">[get quote]</button>
+    </div>
+        <div class id="flex-item child">
+            <!-- Tweet container -->
+                <div class="twitter-container">
+                    <!---change "HelloWorld" to reflect generated quote-->
+                <!---Tweet button-->
                 <a class="twitter-share-button"
   href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large">
 Tweet</a>
-           </div>
-       </div>
-</div>
-
-</div>
-<footer>Brianna Paige &copy;  2017</footer>
+                </div>
+                </div>
+    <div id="quote-box" class="flex-item">
+        <!---quotes go here -->
+    </div>
+      </div>
 </body>
+    <footer class="flex-item">[Brianna Paige &copy;  2017]</footer>
 </html>
