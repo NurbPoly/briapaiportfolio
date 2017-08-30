@@ -4,7 +4,7 @@
 var rmQuotes = [
    '[shoots portal] There she is. Alright, c\'mon, Morty, let\'s go.       -   Rick',
 'Full disclosure, Morty—it\'s not. Temporary superintelligence is just a side effect of the Megaseeds dissolving in your rectal cavity.     -   Rick',
-'The outside world is our enemy, Morty! We\'re the only fehh-friends we got, Morty! It\'s just Rick and Morty! Ruh-ick and Morty and their adventures, Morty! Rick and Morty forever and forever, 100 years, Rick and Morty\'s things! Me and Rick and Morty running around and...      -   Rick',
+'The outside world is our enemy, Morty! We\'re the only fehh-friends we got, Morty! It\'s just Rick and Morty! Ruh-ick and Morty and their adventures, Morty! Rick and Morty forever and forever...      -   Rick',
 'Ricks have a very distinctive and traceable brainwave due to our genius. The best way to hide from an enemy\'s radar is to stand near someone with complementary brainwaves that make ours invisible...        -   Rick',
 
 
@@ -16,7 +16,9 @@ var rmQuotes = [
 
 
 ' Scaring you? Tell me, Summer. If a human was born with stumpy legs, would they breed it with another deformed human and put their children on display like the Dachshund?     -   Snowball',
-'Rick, the only connection between your unquestionable intelligence and the sickness destroying your family is that everyone in your family, you included, use intelligence to justify sickness. You seem to alternate between viewing your own mind as an unstoppable force and as an inescapable curse. And I think it\'s because the only truly unapproachable concept for you is that it\'s your mind within your control.      -   Dr. Wong',
+/* 'Rick, the only connection between your unquestionable intelligence and the sickness destroying your family is that everyone in your family, you included, use intelligence to justify sickness. You seem to alternate between viewing your own mind as an unstoppable force and as an inescapable curse. And I think it\'s because the only truly unapproachable concept for you is that it\'s your mind within your control.      -   Dr. Wong',
+*/
+'Rick, the only connection between your unquestionable intelligence and the sickness destroying your family is that everyone in your family, you included, use intelligence to justify sickness...      -   Dr. Wong',
 'Save your anti-Rick speech for the Council of Ricks, terror-Rick.      -   Rick Officer',
 'Excuse me, sir, is your Morty insured? You know, every year, hundreds of Mortys are injured.	-	Rick Insurer',
 
