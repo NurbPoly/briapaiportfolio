@@ -106,6 +106,27 @@ body {
     opacity: 0.85;
 }
 
+/* Links */
+
+a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: green;
+    text-decoration: underline;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+}
+
 
 
 /* Quote textbox */
