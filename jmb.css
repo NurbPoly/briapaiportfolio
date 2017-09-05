@@ -1,0 +1,162 @@
+
+
+/* "Jean-Michel Basquiat" title/header */
+.jmb {
+  font-family: Patrick Hand SC;
+  font-size: 150px;
+  font-weight: bold;
+  background-image: url("https://uploads5.wikiart.org/images/jean-michel-basquiat/crown.jpg");
+  opacity: .75;
+}
+/* body styling */
+body {
+      position: relative;
+      text-align: center;
+  }
+
+/*Page sections */
+
+#dichotomies {
+    padding-top:50px;
+    height:900px;
+    }
+
+#dawn {
+    padding-top:50px;
+    height:900px;
+    }
+
+#day {
+    padding-top:50px;
+    height:900px;
+    }
+
+#dusk {
+    padding-top:50px;
+    height:1200px;
+    }
+
+
+/* Navbar */
+
+/* text links within navbar*/
+.nav {
+  position: fixed;
+  z-index: 5;
+  }
+
+/* black layer of navbar */
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+/* Collapsed navbar */
+.collapse navbar-collapse {
+    text-align: right;
+    float: right;
+}
+
+/*Anchor text on navbar */
+li {
+  padding-left:30px;
+  padding-right:30px;
+  font-size: 50px;
+  font-family: Patrick Hand SC;
+  font-weight: bold;
+  z-index: auto;
+}
+
+/*Paragraphs and headers */
+p {
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+h2 {
+  font-weight: bold;
+  margin: auto;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+/*Wrappers*/
+#gray-wrapper-1 {
+  background-color: gray;
+  width: 100%;*/
+  border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+  opacity: 0.75; /* css standard */
+    filter: alpha(opacity=35); /* internet explorer */
+}
+#gray-wrapper-1:hover {
+    opacity: 1; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+}
+
+
+#gray-wrapper-2 {
+  background-color: gray;
+  width: 100%;*/
+  border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+  opacity: 0.75; /* css standard */
+    filter: alpha(opacity=35); /* internet explorer */
+}
+/* hover opacity effect */
+#gray-wrapper-2:hover {
+    opacity: 1; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255)
+}
+
+#gray-wrapper-3 {
+  background-color: gray;
+  /*height: 245px;*/
+  width: 100%;*/
+  /*border-radius: 10px;*/
+  border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+  opacity: 0.75; /* css standard */
+    filter: alpha(opacity=20); /* internet explorer */
+}
+
+#gray-wrapper-3:hover {
+    opacity: 1; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255)
+}
+
+/*Section backgrounds */
+#dichotomies {
+  background-image: url("http://www.americansuburbx.com/wp-content/uploads/2016/02/leeches.jpgHD-Custom.jpg");
+  opacity: 0.5;
+}
+
+
+
+#dawn {
+  background-image: url("http://68.media.tumblr.com/883de7555866fefd55c32a5df260c6d3/tumblr_okjkqm7jxW1rldhmro1_1280.jpg");
+  opacity: 0.5;
+}
+
+#day {
+  background-image: url("http://d2jv9003bew7ag.cloudfront.net/uploads/Warhol-and-Basquiat-FEATURE-2.jpg");
+  opacity: 0.5;
+}
+
+#dusk {
+  background-image: url("http://basquiat.com/images/backgrounds/enlarge/fallen_angel-orig.jpg");
+  opacity: 0.5;
+}}

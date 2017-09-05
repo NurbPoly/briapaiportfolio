@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brianna Paige Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet"  type="text/css" href="jmb.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header" class="container-fluid">
+    <h1 class="jmb">Jean-Michel Basquiat</h1>
+  </div>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+    </div>
+    <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+     <li class="active"><a href="#header">Header</a></li>
+        <li><a href="#dichotomies">Dichotomies</a></li>
+      <li><a href="#dawn">Dawn</a></li>
+      <li><a href="#day">Day</a></li>
+      <li><a href="#dusk">Dusk</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<div id="dichotomies" class="container-fluid" title="Leeches (1983)">
+    <div class="row" id="gray-wrapper-1">
+      <div class="col-sm-8"></div>
+  <div class="col-sm-4"></div>
+        <h2>Suggestive Dichotomies</h2>                 <p>Graffiti art and high art. Abstract and figurative. Text and images. Afro-Caribbean and American. Basquiat weaved these dichotomies into his work. He had an innate ability to dissect these themes and expose that they may not be so contradictory at all.</p>
+    </div>
+  </div>
+      </div>
+  </div>
+  <div id="dawn" class="container-fluid" title="Untitled">
+    <div class="row" id="gray-wrapper-2">
+   <div class="col-sm"></div>
+  <div class="col-sm"></div>
+    <h2>Dawn (1960)</h2>
+        <p>Basquiat was born in Brooklyn, NYC, December 22, 1960. His mother, Matilde Basquiat, of Puerto Rican descent was born in Brooklyn. His father, Gerard Basquiat, of Haitian descent was born in Haiti. Basquiat's giftedness was evident from an early age. He could read and write at age 4 and he was fluent in French, Spanish, and English at 11 years of age. His artistic skills alerted his teachers to untapped talent, and he was later enrolled at the exclusive St. Ann's for an arts-centered education.</p>
+  </div>
+  </div>
+</div>
+</div>
+    <div id="day" class="container-fluid" title="Warhol and Basquiat, Tony Shafrazi Gallery (1985)">
+   <div class="row" id="gray-wrapper-2">
+     <div class="col-sm"></div>
+  <div class="col-sm"></div>
+    <h2>Day (1970s-1985)</h2>
+        <p>Jean-Michel Basquiat and Al Diaz formed the graffiti duo <a rel="nofollow" rel="noreferrer"href="https://en.wikipedia.org/wiki/SAMO" target="_blank">SAMO</a>. This outlet was Basquiat's first foray into using cryptic messages, haunting poetry, and biting quips targeted at urban society. After years of poverty and homelessness, he sold his first painting for $25,000. His work "The Radiant Child" was published in <em>Artforum</em> and the rest was history. His career took him from New York to Italy and to California. He collaborated with renowned artists such as Andy Warhol and David Bowie.</p>
+      </div>
+</div>
+      </div>
+  </div>
+  <div id="dusk" class="container-fluid" title="Fallen Angel (1981)">
+     <div class="row" id="gray-wrapper-3">
+       <div class="col-sm"></div>
+  <div class="col-sm"></div>
+    <h2>Dusk (1985-1988)</h2>
+        <p>Basquiat's heroin addiction began to take a toll on his personal life shortly after he appeared on the February 1985 cover for <em>Time Magazine</em>. After Andy Warhol's death on February 22nd, 1987, his addiction and depression further consumed him. Jean-Michel Basquiat died of a heroin overdose at 27 years old.</p>
+       <p>Read more about Jean-Michel Basquiat<a rel="nofollow" rel="noreferrer"href="https://en.wikipedia.org/wiki/Jean-Michel_Basquiat"target="_blank"> here.</a></p>
+    </div>
+  </div>
+</div>
+</div>
+<!--Credit: W3Schools:https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp-->
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 0});
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+  <!--end credit-->
+</body>
