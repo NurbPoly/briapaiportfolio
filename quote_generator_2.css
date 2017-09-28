@@ -1,0 +1,94 @@
+
+
+/** Containers **/
+
+.container-fluid {
+    /*background-color: green;*/
+    background-image: url("images/background_design.jpg");
+    height: 550px;
+    padding: 100px;
+    z-index: -1;
+}
+
+/** Links  **/
+
+
+a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: green;
+    text-decoration: underline;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+/** HTML elements **/
+
+h1 {
+  color: white;
+  height: auto;
+  font-family: "Trajan Pro", "Times New Roman";
+}
+
+body {
+  background-color:black;
+}
+
+
+
+/** Quotes field **/
+.quote {
+  font-size:30px;
+}
+
+p {
+  color:white;
+  font-size:20px;
+}
+
+.author {
+  font-style:italic;
+  font-size: 20px;
+}
+
+
+.quotes {
+  background-color:black;
+  width: 80%;
+  border-color:white;
+  border-style:solid;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height:auto;
+  color:white;
+  z-index: 3;
+  position: relative;
+}
+
+
+/** Footer **/
+
+footer {
+  font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 10px;
+  padding:5px;
+  margin-left: 1100px;
+  z-index: 0;
+  position: relative;
+}
