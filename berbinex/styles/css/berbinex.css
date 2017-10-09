@@ -1,0 +1,31 @@
+
+html {
+    background: black;
+}
+
+.container {
+    background: black
+    width: 2426 px;
+    width: 2426 px;
+    height: 3460 px;
+}
+
+.headline {
+    background-image: url("images\HeadlineImage_1"); repeat 0 0;
+    background-position: center;
+
+}
+/* test code */
+
+.wrapper {
+  width: 100%;
+  max-width: 950px; }
+
+.row {
+    max-width: 1000px;
+    max-width: 62.5rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
